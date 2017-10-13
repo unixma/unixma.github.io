@@ -1,0 +1,236 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>markdown语法 | UNIXMA&#39;s Blog</title>
+  <meta name="author" content="Unix Ma">
+  
+  <meta name="description" content="Markdown学习练习笔记/兼文档
+哲学 philosophy咳咳。简单说就是“易读”，“易写”。
+
+Markdown is intended to be as easy-to-read and easy-to-write as is feasible.">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="markdown语法"/>
+  <meta property="og:site_name" content="UNIXMA&#39;s Blog"/>
+
+  
+    <meta property="og:image" content=""/>
+  
+
+  <link href="/favicon.png" rel="icon">
+  <link rel="alternate" href="/atom.xml" title="UNIXMA&#39;s Blog" type="application/atom+xml">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  
+
+</head>
+
+
+<body>
+  <header id="header" class="inner"><div class="alignleft">
+  <h1><a href="/">UNIXMA&#39;s Blog</a></h1>
+  <h2><a href="/">这世界唯一不变的就是这世界是变化的</a></h2>
+</div>
+<nav id="main-nav" class="alignright">
+  <ul>
+    
+      <li><a href="/">Home</a></li>
+    
+      <li><a href="/archives">Archives</a></li>
+    
+  </ul>
+  <div class="clearfix"></div>
+</nav>
+<div class="clearfix"></div>
+</header>
+  <div id="content" class="inner">
+    <div id="main-col" class="alignleft"><div id="wrapper"><article class="post">
+  
+  <div class="post-content">
+    <header>
+      
+        <div class="icon"></div>
+        <time datetime="2017-08-31T17:00:00.000Z"><a href="/2017/09/01/temp/">2017-09-01</a></time>
+      
+      
+  
+    <h1 class="title">markdown语法</h1>
+  
+
+    </header>
+    <div class="entry">
+      
+        <p>Markdown学习练习笔记/兼文档</p>
+<h2 id="哲学-philosophy"><a href="#哲学-philosophy" class="headerlink" title="哲学 philosophy"></a>哲学 philosophy</h2><p>咳咳。简单说就是“易读”，“易写”。</p>
+<blockquote>
+<p>Markdown is intended to be as easy-to-read and easy-to-write as is feasible.</p>
+</blockquote>
+<a id="more"></a>
+<blockquote>
+<p>草在结它的种子，风在摇它的叶子。我们站着，不说话，就十分美好。</p>
+</blockquote>
+<h2 id="标题-HEADERS"><a href="#标题-HEADERS" class="headerlink" title="标题 HEADERS"></a>标题 HEADERS</h2><h1 id="一级标题-H1"><a href="#一级标题-H1" class="headerlink" title="一级标题 H1"></a>一级标题 H1</h1><pre><code># 这是一个一级标题 header1
+
+这还是一个一级标题 header1
+===========
+</code></pre><h2 id="二级标题-H2"><a href="#二级标题-H2" class="headerlink" title="二级标题 H2"></a>二级标题 H2</h2><pre><code>## 这是一个二级标题 H2
+
+这还是一个二级标题 H2
+--------
+</code></pre><h3 id="三级-六级标题"><a href="#三级-六级标题" class="headerlink" title="三级-六级标题"></a>三级-六级标题</h3><pre><code>### 三级标题 H3
+……
+###### 六级标题 H6
+</code></pre><p>只有一种写法了。</p>
+<h2 id="引用-Blockquotes"><a href="#引用-Blockquotes" class="headerlink" title="引用 Blockquotes"></a>引用 Blockquotes</h2><pre><code>&gt; Smile, breathe and go slowly.
+</code></pre><blockquote>
+<p>Smile, breathe and go slowly.</p>
+</blockquote>
+<h2 id="列表-LIST"><a href="#列表-LIST" class="headerlink" title="列表 LIST"></a>列表 LIST</h2><h3 id="无序列表-Unordered-lists"><a href="#无序列表-Unordered-lists" class="headerlink" title="无序列表 Unordered lists"></a>无序列表 Unordered lists</h3><pre><code>- 第一点
+- 第二点
+</code></pre><ul>
+<li>第一点</li>
+<li>第二点</li>
+</ul>
+<h3 id="有序列表-Ordered-lists"><a href="#有序列表-Ordered-lists" class="headerlink" title="有序列表 Ordered lists"></a>有序列表 Ordered lists</h3><pre><code>3. 第一点
+2. 第二点
+</code></pre><p><em>有趣的是这里前面的数字不重要，无论写什么数字都会生成从1开始递增的有序列表。比如我上面这个例子。会生成。</em></p>
+<ol>
+<li>第一点</li>
+<li>第二点</li>
+</ol>
+<h2 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h2><h3 id="行内式"><a href="#行内式" class="headerlink" title="行内式"></a>行内式</h3><pre><code>[曼珠沙华](http://blog.wileam.com/ &quot;生活博客&quot;)
+</code></pre><p><a href="http://blog.wileam.com/" title="生活博客" target="_blank" rel="external">曼珠沙华</a></p>
+<h3 id="参考式"><a href="#参考式" class="headerlink" title="参考式"></a>参考式</h3><pre><code>[曼珠沙华][1], [技术博客][2]
+[1]: http://blog.wileam.com/ &quot;(此处可选)生活博客&quot;
+[2]: http://code.wileam.com/ &quot;(此处可选)技术博客&quot;
+</code></pre><p><a href="http://blog.wileam.com/" title="(此处可选)生活博客" target="_blank" rel="external">曼珠沙华</a>, <a href="http://code.wileam.com/" title="(此处可选)技术博客" target="_blank" rel="external">技术博客</a></p>
+<p>注意最下面的参考链接是直接不会出现的。</p>
+<h2 id="代码块-CODE-BLOCKS"><a href="#代码块-CODE-BLOCKS" class="headerlink" title="代码块 CODE BLOCKS"></a>代码块 CODE BLOCKS</h2><p>缩进 4spaces/1Tab。</p>
+<pre><code>&lt;div class=&quot;container&quot;&gt;
+    &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;span4&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;span8&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre><h2 id="加粗-斜体-EMPHASIS"><a href="#加粗-斜体-EMPHASIS" class="headerlink" title="加粗/斜体 EMPHASIS"></a>加粗/斜体 EMPHASIS</h2><pre><code>**加粗**
+*斜体*
+</code></pre><p><strong>加粗</strong><br><em>斜体</em></p>
+<h2 id="图像-IMAGES"><a href="#图像-IMAGES" class="headerlink" title="图像 IMAGES"></a>图像 IMAGES</h2><h3 id="行内式-1"><a href="#行内式-1" class="headerlink" title="行内式"></a>行内式</h3><pre><code>![This is a Photo](/photos/20170901/1.jpg &quot;Optional title&quot;)
+</code></pre><p><img src="/photos/20170901/1.jpg" alt="This is a Photo" title="Optional title"></p>
+<h3 id="参考式-1"><a href="#参考式-1" class="headerlink" title="参考式"></a>参考式</h3><pre><code>![this is a Photo2][3]
+[3]: /photos/20170901/1.jpg &quot;haha,this is a Photo2&quot;
+</code></pre><p><img src="/photos/20170901/1.jpg" alt="this is a Photo2" title="haha,this is a Photo2"></p>
+<p>带指定尺寸的图片显示:</p>
+<img src="/photos/20170901/1.jpg" class="testx" width="640" height="480">
+<p>Source Code 引用:</p>
+<figure class="highlight c"><figcaption><span>a.c</span><a href="/downloads/code/a.c">view raw</a></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div><div class="line">78</div><div class="line">79</div><div class="line">80</div><div class="line">81</div><div class="line">82</div><div class="line">83</div><div class="line">84</div><div class="line">85</div><div class="line">86</div><div class="line">87</div><div class="line">88</div><div class="line">89</div><div class="line">90</div><div class="line">91</div><div class="line">92</div><div class="line">93</div><div class="line">94</div><div class="line">95</div><div class="line">96</div><div class="line">97</div><div class="line">98</div><div class="line">99</div><div class="line">100</div><div class="line">101</div><div class="line">102</div><div class="line">103</div><div class="line">104</div><div class="line">105</div><div class="line">106</div><div class="line">107</div><div class="line">108</div><div class="line">109</div><div class="line">110</div><div class="line">111</div><div class="line">112</div><div class="line">113</div><div class="line">114</div><div class="line">115</div><div class="line">116</div><div class="line">117</div><div class="line">118</div><div class="line">119</div><div class="line">120</div><div class="line">121</div><div class="line">122</div><div class="line">123</div><div class="line">124</div><div class="line">125</div><div class="line">126</div><div class="line">127</div><div class="line">128</div><div class="line">129</div><div class="line">130</div><div class="line">131</div><div class="line">132</div><div class="line">133</div><div class="line">134</div><div class="line">135</div><div class="line">136</div><div class="line">137</div><div class="line">138</div><div class="line">139</div><div class="line">140</div><div class="line">141</div><div class="line">142</div><div class="line">143</div><div class="line">144</div><div class="line">145</div><div class="line">146</div><div class="line">147</div><div class="line">148</div><div class="line">149</div><div class="line">150</div><div class="line">151</div><div class="line">152</div><div class="line">153</div><div class="line">154</div><div class="line">155</div><div class="line">156</div><div class="line">157</div><div class="line">158</div><div class="line">159</div><div class="line">160</div><div class="line">161</div><div class="line">162</div><div class="line">163</div><div class="line">164</div><div class="line">165</div><div class="line">166</div><div class="line">167</div><div class="line">168</div><div class="line">169</div><div class="line">170</div><div class="line">171</div><div class="line">172</div><div class="line">173</div><div class="line">174</div><div class="line">175</div><div class="line">176</div><div class="line">177</div></pre></td><td class="code"><pre><div class="line"><span class="comment">/* Example hwloc API program.</span></div><div class="line"><span class="comment"> *</span></div><div class="line"><span class="comment"> * See other examples under doc/examples/ in the source tree</span></div><div class="line"><span class="comment"> * for more details.</span></div><div class="line"><span class="comment"> *</span></div><div class="line"><span class="comment"> * Copyright © 2009-2015 Inria.  All rights reserved.</span></div><div class="line"><span class="comment"> * Copyright © 2009-2011 Université Bordeaux</span></div><div class="line"><span class="comment"> * Copyright © 2009-2010 Cisco Systems, Inc.  All rights reserved.</span></div><div class="line"><span class="comment"> * See COPYING in top-level directory.</span></div><div class="line"><span class="comment"> *</span></div><div class="line"><span class="comment"> * hwloc-hello.c</span></div><div class="line"><span class="comment"> */</span></div><div class="line"></div><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;hwloc.h&gt;</span></span></div><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;errno.h&gt;</span></span></div><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></div><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;string.h&gt;</span></span></div><div class="line"></div><div class="line"><span class="function"><span class="keyword">static</span> <span class="keyword">void</span> <span class="title">print_children</span><span class="params">(<span class="keyword">hwloc_topology_t</span> topology, <span class="keyword">hwloc_obj_t</span> obj, </span></span></div><div class="line"><span class="function"><span class="params">                           <span class="keyword">int</span> depth)</span></span></div><div class="line"><span class="function"></span>{</div><div class="line">    <span class="keyword">char</span> type[<span class="number">32</span>], attr[<span class="number">1024</span>];</div><div class="line">    <span class="keyword">unsigned</span> i;</div><div class="line"></div><div class="line">    hwloc_obj_type_snprintf(type, <span class="keyword">sizeof</span>(type), obj, <span class="number">0</span>);</div><div class="line">    <span class="built_in">printf</span>(<span class="string">"%*s%s"</span>, <span class="number">2</span>*depth, <span class="string">""</span>, type);</div><div class="line">    <span class="keyword">if</span> (obj-&gt;os_index != (<span class="keyword">unsigned</span>) <span class="number">-1</span>)</div><div class="line">      <span class="built_in">printf</span>(<span class="string">"#%u"</span>, obj-&gt;os_index);</div><div class="line">    hwloc_obj_attr_snprintf(attr, <span class="keyword">sizeof</span>(attr), obj, <span class="string">" "</span>, <span class="number">0</span>);</div><div class="line">    <span class="keyword">if</span> (*attr)</div><div class="line">      <span class="built_in">printf</span>(<span class="string">"(%s)"</span>, attr);</div><div class="line">    <span class="built_in">printf</span>(<span class="string">"\n"</span>);</div><div class="line">    <span class="keyword">for</span> (i = <span class="number">0</span>; i &lt; obj-&gt;arity; i++) {</div><div class="line">        print_children(topology, obj-&gt;children[i], depth + <span class="number">1</span>);</div><div class="line">    }</div><div class="line">}</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">void</span>)</span></span></div><div class="line"><span class="function"></span>{</div><div class="line">    <span class="keyword">int</span> depth;</div><div class="line">    <span class="keyword">unsigned</span> i, n;</div><div class="line">    <span class="keyword">unsigned</span> <span class="keyword">long</span> size;</div><div class="line">    <span class="keyword">int</span> levels;</div><div class="line">    <span class="keyword">char</span> <span class="built_in">string</span>[<span class="number">128</span>];</div><div class="line">    <span class="keyword">int</span> topodepth;</div><div class="line">    <span class="keyword">hwloc_topology_t</span> topology;</div><div class="line">    <span class="keyword">hwloc_cpuset_t</span> cpuset;</div><div class="line">    <span class="keyword">hwloc_obj_t</span> obj;</div><div class="line"></div><div class="line">    <span class="comment">/* Allocate and initialize topology object. */</span></div><div class="line">    hwloc_topology_init(&amp;topology);</div><div class="line"></div><div class="line">    <span class="comment">/* ... Optionally, put detection configuration here to ignore</span></div><div class="line"><span class="comment">       some objects types, define a synthetic topology, etc....  </span></div><div class="line"><span class="comment"></span></div><div class="line"><span class="comment">       The default is to detect all the objects of the machine that</span></div><div class="line"><span class="comment">       the caller is allowed to access.  See Configure Topology</span></div><div class="line"><span class="comment">       Detection. */</span></div><div class="line"></div><div class="line">    <span class="comment">/* Perform the topology detection. */</span></div><div class="line">    hwloc_topology_load(topology);</div><div class="line"></div><div class="line">    <span class="comment">/* Optionally, get some additional topology information</span></div><div class="line"><span class="comment">       in case we need the topology depth later. */</span></div><div class="line">    topodepth = hwloc_topology_get_depth(topology);</div><div class="line"></div><div class="line">    <span class="comment">/*****************************************************************</span></div><div class="line"><span class="comment">     * First example:</span></div><div class="line"><span class="comment">     * Walk the topology with an array style, from level 0 (always</span></div><div class="line"><span class="comment">     * the system level) to the lowest level (always the proc level).</span></div><div class="line"><span class="comment">     *****************************************************************/</span></div><div class="line">    <span class="keyword">for</span> (depth = <span class="number">0</span>; depth &lt; topodepth; depth++) {</div><div class="line">        <span class="built_in">printf</span>(<span class="string">"*** Objects at level %d\n"</span>, depth);</div><div class="line">        <span class="keyword">for</span> (i = <span class="number">0</span>; i &lt; hwloc_get_nbobjs_by_depth(topology, depth); </div><div class="line">             i++) {</div><div class="line">            hwloc_obj_type_snprintf(<span class="built_in">string</span>, <span class="keyword">sizeof</span>(<span class="built_in">string</span>),</div><div class="line">truetruetruetrue    hwloc_get_obj_by_depth(topology, depth, i), <span class="number">0</span>);</div><div class="line">            <span class="built_in">printf</span>(<span class="string">"Index %u: %s\n"</span>, i, <span class="built_in">string</span>);</div><div class="line">        }</div><div class="line">    }</div><div class="line"></div><div class="line">    <span class="comment">/*****************************************************************</span></div><div class="line"><span class="comment">     * Second example:</span></div><div class="line"><span class="comment">     * Walk the topology with a tree style.</span></div><div class="line"><span class="comment">     *****************************************************************/</span></div><div class="line">    <span class="built_in">printf</span>(<span class="string">"*** Printing overall tree\n"</span>);</div><div class="line">    print_children(topology, hwloc_get_root_obj(topology), <span class="number">0</span>);</div><div class="line"></div><div class="line">    <span class="comment">/*****************************************************************</span></div><div class="line"><span class="comment">     * Third example:</span></div><div class="line"><span class="comment">     * Print the number of packages.</span></div><div class="line"><span class="comment">     *****************************************************************/</span></div><div class="line">    depth = hwloc_get_type_depth(topology, HWLOC_OBJ_PACKAGE);</div><div class="line">    <span class="keyword">if</span> (depth == HWLOC_TYPE_DEPTH_UNKNOWN) {</div><div class="line">        <span class="built_in">printf</span>(<span class="string">"*** The number of packages is unknown\n"</span>);</div><div class="line">    } <span class="keyword">else</span> {</div><div class="line">        <span class="built_in">printf</span>(<span class="string">"*** %u package(s)\n"</span>,</div><div class="line">               hwloc_get_nbobjs_by_depth(topology, depth));</div><div class="line">    }</div><div class="line"></div><div class="line">    <span class="comment">/*****************************************************************</span></div><div class="line"><span class="comment">     * Fourth example:</span></div><div class="line"><span class="comment">     * Compute the amount of cache that the first logical processor</span></div><div class="line"><span class="comment">     * has above it.</span></div><div class="line"><span class="comment">     *****************************************************************/</span></div><div class="line">    levels = <span class="number">0</span>;</div><div class="line">    size = <span class="number">0</span>;</div><div class="line">    <span class="keyword">for</span> (obj = hwloc_get_obj_by_type(topology, HWLOC_OBJ_PU, <span class="number">0</span>);</div><div class="line">         obj;</div><div class="line">         obj = obj-&gt;parent)</div><div class="line">      <span class="keyword">if</span> (obj-&gt;type == HWLOC_OBJ_CACHE) {</div><div class="line">        levels++;</div><div class="line">        size += obj-&gt;attr-&gt;cache.size;</div><div class="line">      }</div><div class="line">    <span class="built_in">printf</span>(<span class="string">"*** Logical processor 0 has %d caches totaling %luKB\n"</span>, </div><div class="line">           levels, size / <span class="number">1024</span>);</div><div class="line"></div><div class="line">    <span class="comment">/*****************************************************************</span></div><div class="line"><span class="comment">     * Fifth example:</span></div><div class="line"><span class="comment">     * Bind to only one thread of the last core of the machine.</span></div><div class="line"><span class="comment">     *</span></div><div class="line"><span class="comment">     * First find out where cores are, or else smaller sets of CPUs if</span></div><div class="line"><span class="comment">     * the OS doesn't have the notion of a "core".</span></div><div class="line"><span class="comment">     *****************************************************************/</span></div><div class="line">    depth = hwloc_get_type_or_below_depth(topology, HWLOC_OBJ_CORE);</div><div class="line"></div><div class="line">    <span class="comment">/* Get last core. */</span></div><div class="line">    obj = hwloc_get_obj_by_depth(topology, depth,</div><div class="line">                   hwloc_get_nbobjs_by_depth(topology, depth) - <span class="number">1</span>);</div><div class="line">    <span class="keyword">if</span> (obj) {</div><div class="line">        <span class="comment">/* Get a copy of its cpuset that we may modify. */</span></div><div class="line">        cpuset = hwloc_bitmap_dup(obj-&gt;cpuset);</div><div class="line"></div><div class="line">        <span class="comment">/* Get only one logical processor (in case the core is</span></div><div class="line"><span class="comment">           SMT/hyper-threaded). */</span></div><div class="line">        hwloc_bitmap_singlify(cpuset);</div><div class="line"></div><div class="line">        <span class="comment">/* And try to bind ourself there. */</span></div><div class="line">        <span class="keyword">if</span> (hwloc_set_cpubind(topology, cpuset, <span class="number">0</span>)) {</div><div class="line">            <span class="keyword">char</span> *str;</div><div class="line">            <span class="keyword">int</span> error = errno;</div><div class="line">            hwloc_bitmap_asprintf(&amp;str, obj-&gt;cpuset);</div><div class="line">            <span class="built_in">printf</span>(<span class="string">"Couldn't bind to cpuset %s: %s\n"</span>, str, strerror(error));</div><div class="line">            <span class="built_in">free</span>(str);</div><div class="line">        }</div><div class="line"></div><div class="line">        <span class="comment">/* Free our cpuset copy */</span></div><div class="line">        hwloc_bitmap_free(cpuset);</div><div class="line">    }</div><div class="line"></div><div class="line">    <span class="comment">/*****************************************************************</span></div><div class="line"><span class="comment">     * Sixth example:</span></div><div class="line"><span class="comment">     * Allocate some memory on the last NUMA node, bind some existing</span></div><div class="line"><span class="comment">     * memory to the last NUMA node.</span></div><div class="line"><span class="comment">     *****************************************************************/</span></div><div class="line">    <span class="comment">/* Get last node. */</span></div><div class="line">    n = hwloc_get_nbobjs_by_type(topology, HWLOC_OBJ_NUMANODE);</div><div class="line">    <span class="keyword">if</span> (n) {</div><div class="line">        <span class="keyword">void</span> *m;</div><div class="line">        size = <span class="number">1024</span>*<span class="number">1024</span>;</div><div class="line"></div><div class="line">        obj = hwloc_get_obj_by_type(topology, HWLOC_OBJ_NUMANODE, n - <span class="number">1</span>);</div><div class="line">        m = hwloc_alloc_membind_nodeset(topology, size, obj-&gt;nodeset,</div><div class="line">                HWLOC_MEMBIND_BIND, <span class="number">0</span>);</div><div class="line">        hwloc_free(topology, m, size);</div><div class="line"></div><div class="line">        m = <span class="built_in">malloc</span>(size);</div><div class="line">        hwloc_set_area_membind_nodeset(topology, m, size, obj-&gt;nodeset,</div><div class="line">                HWLOC_MEMBIND_BIND, <span class="number">0</span>);</div><div class="line">        <span class="built_in">free</span>(m);</div><div class="line">    }</div><div class="line"></div><div class="line">    <span class="comment">/* Destroy topology object. */</span></div><div class="line">    hwloc_topology_destroy(topology);</div><div class="line"></div><div class="line">    <span class="keyword">return</span> <span class="number">0</span>;</div><div class="line">}</div></pre></td></tr></table></figure>
+<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><h3 id="电子邮件-email"><a href="#电子邮件-email" class="headerlink" title="电子邮件 email"></a>电子邮件 email</h3><pre><code>&lt;abc@gmail.com&gt;
+</code></pre><p><a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;&#58;&#x61;&#x62;&#99;&#x40;&#103;&#x6d;&#97;&#x69;&#108;&#x2e;&#x63;&#x6f;&#x6d;">&#x61;&#x62;&#99;&#x40;&#103;&#x6d;&#97;&#x69;&#108;&#x2e;&#x63;&#x6f;&#x6d;</a></p>
+<h3 id="反斜杠"><a href="#反斜杠" class="headerlink" title="反斜杠"></a>反斜杠</h3><pre><code>\*我就是想显示星号不想斜体\*
+</code></pre><p>*我就是想显示星号不想斜体*</p>
+<hr>
+<p>reference: <a href="http://daringfireball.net/projects/markdown/syntax" target="_blank" rel="external">markdown syntax</a><br>参考源码: <a href="https://github.com/wileam/code/blob/master/source/_posts/markdown-syntax.md" target="_blank" rel="external">https://github.com/wileam/code/blob/master/source/_posts/markdown-syntax.md</a></p>
+
+      
+    </div>
+    <footer>
+      
+        
+  
+  <div class="categories">
+    <a href="/categories/Technology/">Technology</a>
+  </div>
+
+        
+  
+  <div class="tags">
+    <a href="/tags/markdown/">markdown</a>
+  </div>
+
+        
+      
+      <div class="clearfix"></div>
+    </footer>
+  </div>
+</article>
+
+
+<section id="comment">
+  <h1 class="title">留言</h1>
+
+  
+</section>
+
+</div></div>
+    <aside id="sidebar" class="alignright">
+  <div class="search">
+  <form action="//google.com/search" method="get" accept-charset="utf-8">
+    <input type="search" name="q" results="0" placeholder="搜索">
+    <input type="hidden" name="q" value="site:unixma.github.io">
+  </form>
+</div>
+
+  
+<div class="widget tag">
+  <h3 class="title">分类</h3>
+  <ul class="entry">
+  
+    <li><a href="/categories/Technology/">Technology</a><small>1</small></li>
+  
+  </ul>
+</div>
+
+
+  
+<div class="widget tag">
+  <h3 class="title">标签</h3>
+  <ul class="entry">
+  
+    <li><a href="/tags/markdown/">markdown</a><small>1</small></li>
+  
+  </ul>
+</div>
+
+
+  
+<div class="widget tag">
+  <h3 class="title">最新文章</h3>
+  <ul class="entry">
+    
+      <li>
+        <a href="/2017/10/13/Gallery-201710-2/">Gallery-201710-2</a>
+      </li>
+    
+      <li>
+        <a href="/2017/10/13/Travel-200709/">Travel 200709</a>
+      </li>
+    
+      <li>
+        <a href="/2017/09/01/temp/">markdown语法</a>
+      </li>
+    
+  </ul>
+</div>
+
+</aside>
+    <div class="clearfix"></div>
+  </div>
+  <footer id="footer" class="inner"><div class="alignleft">
+  
+  &copy; 2017 Unix Ma
+  
+</div>
+<div class="clearfix"></div></footer>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+
+
+
+
+</body>
+</html>
